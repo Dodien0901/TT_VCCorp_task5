@@ -2,10 +2,10 @@ task 5
 
 Yêu cầu: Chỉnh sửa project trên (task4) sao cho tất cả các output (response API) theo dạng tiêu chuẩn có các thành phần (trường) như sau:
 
-• Status: trạng thái của API (chỉ mang 2 trạng thái thành công hoặc thất bại)
-• Message: lời nhắn từ server
-• Code: mã trạng thái HTTP, bao gồm các mã trạng thái mặc định (200, 404, 401, 500,…) và mã trạng thái do người dùng tự định nghĩa
-• Data: thông tin dữ liệu trả về phía gửi yêu cầu (nếu có)
+- Status: trạng thái của API (chỉ mang 2 trạng thái thành công hoặc thất bại)
+- Message: lời nhắn từ server
+- Code: mã trạng thái HTTP, bao gồm các mã trạng thái mặc định (200, 404, 401, 500,…) và mã trạng thái do người dùng tự định nghĩa
+- Data: thông tin dữ liệu trả về phía gửi yêu cầu (nếu có)
 
 Mã code API định nghĩa cụ thể cho các trường hợp sau:
 
@@ -15,6 +15,7 @@ Mã code API định nghĩa cụ thể cho các trường hợp sau:
 901: Truy vấn vào cơ sở dữ liệu thất bại
 902: Thêm mới một đối tượng đã tồn tại trong CSDL
 500: Các lỗi phát sinh khác
+
 Ví dụ:
 OUTPUT truy vấn dữ liệu thành công
 {
